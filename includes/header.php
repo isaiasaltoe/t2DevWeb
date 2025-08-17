@@ -20,6 +20,7 @@
                         <li><a href="login.php">Login</a></li>
                         <li><a href="cadastro.php">Cadastro</a></li>
                     <?php endif; ?>
+                                    <li><a href="mapa.php">Mapa</a></li>
                 </ul>
             </nav>
         </div>
