@@ -263,3 +263,25 @@ footer {
         margin-top: 10px;
     }
 }
+/* Navegação e layout básicos */
+.container{max-width:1000px;margin:0 auto;padding:1rem;}
+header{background:#111;color:#fff;}
+header a{color:#fff;text-decoration:none;}
+header nav ul{display:flex;gap:1rem;list-style:none;padding:0;}
+.btn{display:inline-block;padding:.6rem 1rem;border-radius:.5rem;border:1px solid transparent;text-decoration:none;}
+.btn-primary{background:#1f6feb;color:#fff;}
+.btn-secondary{background:#e2e8f0;color:#111;}
+.btn-danger{background:#ef4444;color:#fff;}
+.site-footer{background:#f3f4f6;margin-top:3rem;padding:2rem 0;}
+.footer-grid{display:flex;gap:2rem;justify-content:space-between;}
+.footer-grid ul{list-style:none;padding:0;margin:0;}
+.footer-bottom{margin-top:1rem;text-align:center;color:#6b7280;}
+/* Cards e listas de mensagens */
+.message-card{border:1px solid #e5e7eb;border-radius:.75rem;padding:1rem;margin:.75rem 0;background:#fff;display:flex;justify-content:space-between;align-items:center;gap:1rem;}
+.message-header{display:flex;flex-direction:column;gap:.25rem;}
+.message-actions{display:flex;gap:.5rem;}
+.message-full{border:1px solid #e5e7eb;border-radius:1rem;padding:1.25rem;background:#fff;}
+.message-full__header{border-bottom:1px solid #e5e7eb;padding-bottom:.75rem;margin-bottom:1rem;}
+.message-full__body{white-space:pre-wrap;line-height:1.6;}
+.breadcrumb{font-size:.9rem;color:#6b7280;margin:.5rem 0 1rem;display:flex;gap:.5rem;align-items:center;}
+.site-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;}
